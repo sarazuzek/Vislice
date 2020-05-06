@@ -4,4 +4,3 @@ for n in range(2, 201):
             break
     else:
         print(n)
-        
