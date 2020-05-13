@@ -39,7 +39,7 @@ class Igra:
         for crka in self.geslo:
             #pravilni_del += crka if crka in self.crke else '_'
             if crka in self.crke:
-                pravilni_del += crrka
+                pravilni_del += crka
             else:
                 pravilni_del += '_'
         return pravilni_del
@@ -47,7 +47,7 @@ class Igra:
     def nepravilni_ugibi(self):
         return ' '.join(self.napacne_crke())
     
-    def ugibaj(self, crka):
+    def ugibaj(self, ugibana_crka):
         ugibana_crka = ugibana_crka.upper()
         if ugibana_crka in self.crke:
             return PONOVLJENA_CRKA
