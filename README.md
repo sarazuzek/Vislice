@@ -1,8 +1,5 @@
 # Vislice
 
-## Znani slovenski matematiki:
-- Janez Janša
-- Borut Pahor
-- Ivan Vidav
-- Josip Plenelj
-- Jurij Vega
+Projekt pri predmetu UVP 
+
+Napisali bomo program, ki nas bo vodil skozi preprosto igro vislic.
