@@ -1,4 +1,4 @@
-import model
+% import model
 
 
 <!DOCTYPE html>
@@ -40,7 +40,7 @@ import model
   % else:
 
  <form action="/igra/{{id_igre}}/" method="post">
-    Črka: <input type="text" name="crka">
+    Črka: <input type="text" name="crka" maxlenght="1">
     <button type="submit">Ugibaj</button>
   </form>
 
