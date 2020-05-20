@@ -12,7 +12,7 @@ def nova_igra():
     id_igre = vislice.nova_igra()
     bottle.redirect('/igra/{}/'.format(id_igre)) #preusemerimo na drug naslov
 
-@bottle.get('/igra/<id_igre:int>/') #id igre ki je celo število
+@bottle.get('/igra/<id_igre:int>/') #id igre, ki je celo število
 def pokazi_igro(id_igre):
     igra, stanje = vislice.igre[id_igre]
     return bottle.template('views/igra.tpl', id_igre=id_igre, igra=igra, stanje=stanje)

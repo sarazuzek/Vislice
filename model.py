@@ -73,6 +73,7 @@ def nova_igra():
     beseda = random.choice(bazen_besed)
     return Igra(beseda)
 
+
 class Vislice:
     def __init__(self):
         self.igre = {}
